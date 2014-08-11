@@ -1,4 +1,14 @@
 GIT
+  remote: git://github.com/andreasronge/neo4j-core.git
+  revision: d3af2cdbb5c72ba6979ed8f74017e8f93cf707d3
+  specs:
+    neo4j-core (3.0.0.alpha.18)
+      httparty
+      json
+      os
+      zip
+
+GIT
   remote: git://github.com/andreasronge/neo4j.git
   revision: 624936b6076ea73349b01beb46be6598f4f39022
   specs:
@@ -85,11 +95,6 @@ GEM
     minitest (5.4.0)
     multi_json (1.10.1)
     multi_xml (0.5.5)
-    neo4j-core (3.0.0.alpha.18)
-      httparty
-      json
-      os
-      zip
     orm_adapter (0.5.0)
     os (0.9.6)
     polyglot (0.3.5)
@@ -135,7 +140,6 @@ GEM
       actionpack (>= 3.0)
       activesupport (>= 3.0)
       sprockets (~> 2.8)
-    sqlite3 (1.3.9)
     thin (1.6.2)
       daemons (>= 1.0.9)
       eventmachine (>= 1.0.0)
@@ -166,11 +170,11 @@ DEPENDENCIES
   jquery-rails
   meta_request
   neo4j!
+  neo4j-core!
   rails (= 4.1.1)
   sass-rails (~> 4.0.3)
   sdoc (~> 0.4.0)
   spring
-  sqlite3
   thin
   turbolinks
   uglifier (>= 1.3.0)
